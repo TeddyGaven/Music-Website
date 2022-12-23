@@ -1,0 +1,218 @@
+.Body{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    grid-template-rows: repeat(3,400px);
+}
+
+.grid{
+    width: 370px;
+    min-height: auto;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.row-1, .row-2, .row-3, .row-4{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     justify-content: space-around ;
+    }
+
+.grid-item{
+    margin-left: 30px;
+}
+
+.grid{
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.minbody{
+    margin: 0px;
+    padding: 0px;
+}
+
+.composer{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.composer:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.bio{
+    color: white;
+    text-decoration: none;
+}
+
+.artist{  
+    color: white;
+    text-decoration: none;
+}
+.info, a{
+    text-decoration: none;
+    justify-content: center;
+}
+
+a{
+    align-items: center;
+}
+
+.grid:hover{
+    background-color: dimgrey;
+    text-decoration: none;
+}
+
+.bio{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.bio:hover{
+    color: aqua;
+    font-size: 20px;
+}
+
+.line-icon{
+   width: 35px;
+   height: 7px;
+   background-color: white;
+   margin-top: 5px;
+   justify-content: center;
+   margin-left: 50px;
+   display: none;
+}
+
+@media screen and (max-width:1000px){
+
+    *{
+         width: auto;
+    }
+
+    .row-1,.row-2,.row-3,.row-4{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Body{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .container{
+        width: auto;
+        height: auto;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .grid-item{
+        width: auto;
+    }
+
+    .line-icon{
+        display: block;
+        background-color: black;
+        justify-content: flex-start;
+    }
+
+    .icon{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        justify-content: flex-start;
+        width: auto;
+    }
+
+    .minbody{
+        width: auto;
+    }
+
+    .minbody, .grid, .grid-item{
+        width: auto;
+        margin-left: 0px;
+        height: 500px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        padding-left: 0px;
+        height: auto;
+      }
+       
+    .minbody{
+        width: auto;
+        margin-left: 0px;
+        height: 500px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        height: auto;
+    }
+    
+    .Body{
+        width: auto;
+        padding: 0px;
+        margin: 0px 10px 10px 20px;
+    }
+    
+    .container > img{
+        height: 300px;
+    }
+    
+    .info{
+        height: auto;
+        font-size: 25px;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    .composer{
+        font-size: 30px;
+    }
+
+    .bio, .artist{
+        font-size: 20px;
+    }
+
+    .minbody{
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+
+    *{
+        width: auto;
+    }
+
+    
+}
+
+
+
+
